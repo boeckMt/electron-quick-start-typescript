@@ -2,16 +2,27 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Hexo-Tron</title>
   </head>
-  <body>
+  
+  <!--
     <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
+    All of the Node.js APIs are available in this renderer process.
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>
+  -->
+  <h1>Hexo-Tron Admin </h1>
+  <h3>(Hexo with Electron)</h3>
+
+  <button id="test_btn">send with icpMain</button>
   </body>
 
+  
+  <div id="content"></div>
+  
+
+  <!-- <script>window.$ = window.jQuery = require('jquery');</script> -->
   <script>
     // You can also require other files to run in this process
     require('./dist/renderer.js')
